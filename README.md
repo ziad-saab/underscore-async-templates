@@ -4,6 +4,9 @@ AJAX-loaded underscore templates with added include functionality
 -----------------------------------------------------------------
 I am developing a big webapp and got tired of including all my templates inline. This module enables loading of EJS templates using AJAX, and adds `<% include %>` functionality on top.
 
+### Dependencies
+This module requires jQuery > 1.5 (for Deferreds) and Underscore
+
 ### Including
 * **Classic**: include `underscore-async-templates.js` in a `<script>` tag after jQuery and Underscore have been loaded
 * **AMD**: this module is compatible with requirejs. It depends on the jquery and underscore
